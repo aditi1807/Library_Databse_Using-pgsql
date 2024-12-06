@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
-DATABASE_URL = 'postgresql://postgres:temp1234@localhost:5432/QuizzApplicationYT'
+DATABASE_URL = 'postgresql://postgres:YourPassword@localhost:5432/QuizzApplicationYT'
 
 engine = create_engine(DATABASE_URL)
 
